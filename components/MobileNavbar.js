@@ -46,12 +46,17 @@ const MobileNavbar = () => {
                         Destinations
 
                     </Link>
+
+                    <Link href="/explore" className="block px-4 py-2 cursor-pointer bg-opacity-30 backdrop-blur-md backdrop-filter bg-gray-100 hover:bg-gray-200 rounded-sm text-white hover:text-gray-800 mb-1">
+                        Explore
+                    </Link>
+
                     <Link href="/about" className="block px-4 py-2 cursor-pointer  bg-opacity-30 backdrop-blur-md backdrop-filter bg-gray-100 hover:bg-gray-200  rounded-sm text-white hover:text-gray-800 mb-1">
                         About
 
                     </Link>
-                    <Link href="/contact" className="block px-4 py-2 cursor-pointer  bg-opacity-30 backdrop-blur-md backdrop-filter bg-gray-100 hover:bg-gray-200  rounded-sm text-white hover:text-gray-800 mb-1">
-                        Contact
+                    <Link href="/account" className="block px-4 py-2 cursor-pointer  bg-opacity-30 backdrop-blur-md backdrop-filter bg-gray-100 hover:bg-gray-200  rounded-sm text-white hover:text-gray-800 mb-1">
+                        Login
 
                     </Link>
                 </div>
