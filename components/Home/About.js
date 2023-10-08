@@ -18,7 +18,7 @@ const About = () => {
                     <div className="bg-white p-6 rounded-lg shadow-lg">
                         <h3 className="text-xl font-semibold">Unparalleled Views</h3>
                         <p className="mt-2 text-gray-600">
-                            Witness the beauty of our solar system's wonders.
+                            Witness the beauty of our solar systems wonders.
                         </p>
                     </div>
                 </div>

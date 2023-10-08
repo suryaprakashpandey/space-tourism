@@ -10,35 +10,35 @@ const DestinationPage = () => {
     const { id } = router.query;
 
     const destinationData = {
-        
-        name: 'Mars',
-        desc: 'Mars is the fourth planet from the Sun and the second- smallest planet in the Solar System, after Mercury.It is often referred to as the "Red Planet" due to its reddish appearance, which is caused by iron oxide(rust) on its surface.Mars has been a subject of fascination for scientists and explorers due to its potential for harboring life and its similarities to Earth.',
+
+        name: 'Moon',
+        desc: 'The Moon is Earth\'s natural satellite and has been a subject of fascination and exploration for centuries.',
         touristPlaces: [
-            { title: "Title", link: "/link", desc: "This is Description", img: "/img/europa.png" },
-            { title: "Title", link: "/link", desc: "This is Description", img: "/img/europa.png" },
-            { title: "Title", link: "/link", desc: "This is Description", img: "/img/europa.png" },
-
+            { title: 'Apollo 11 Landing Site (Tranquility Base)', link: '', desc: 'Visit the historic Apollo 11 landing site where humans first set foot on the Moon. Explore the "Tranquility Base" and learn about the incredible journey of Neil Armstrong and Buzz Aldrin.', img: '' },
+            { title: 'Lunar Module Descent Stages', link: '', desc: 'Discover the remnants of the lunar module descent stages left behind by the Apollo missions. These spacecraft played a crucial role in safely landing astronauts on the Moon.', img: '' },
+            { title: 'Lunar Rovers and Instruments', link: '', desc: 'Explore the lunar rovers and scientific instruments used by astronauts to conduct experiments and collect data on the Moon\'s geology and environment.', img: '' },
+            { title: 'Tycho Crater', link: '', desc: 'Visit the Tycho Crater, a prominent lunar impact crater known for its central peak. Study the unique features and geological history of this lunar landmark.', img: '' },
+            { title: 'Mare Tranquillitatis (Sea of Tranquility)', link: '', desc: 'Explore the Mare Tranquillitatis, also known as the "Sea of Tranquility." This vast lunar plain is famous for its role in the Apollo 11 mission and offers stunning lunar vistas.', img: '' },
+            { title: 'Copernicus Crater', link: '', desc: 'Visit the Copernicus Crater, a large and well-preserved lunar impact crater. Study its intricate ejecta pattern and geological formations.', img: '' },
         ],
-
         itinerary: [
-            { day: 'Weeks 1-9', activity: 'Travel to Mars and Observe Mars from Orbit' },
-            { day: 'Week 10', activity: 'Arrival at Gale Crater (Land at Aeolis Mons)' },
-            { day: 'Day 71-75', activity: 'Explore the Base of Mount Sharp and Ancient Lakebeds' },
-            { day: 'Day 76-80', activity: 'Visit Olympus Mons and Conduct Geological Studies' },
-            { day: 'Day 81-85', activity: 'Explore Valles Marineris and its Spectacular Canyons' },
-            { day: 'Day 86-90', activity: 'Visit Curiosity Rover Landing Site and Gather Data' },
-            { day: 'Day 91-95', activity: 'Explore Victoria Crater and its Geological Features' },
-            { day: 'Day 96-100', activity: 'Investigate the Face on Mars in Cydonia Region' },
-            { day: 'Weeks 11-20', activity: 'Return to Earth' },
+            { day: 'Day 1', activity: 'Departure from Earth' },
+            { day: 'Day 2-6', activity: 'Observe Moon from Orbit & Prepare for Landing' },
+            { day: 'Day 7', activity: 'Arrival at the Moon (Land at Apollo 11 Site)' },
+            { day: 'Day 8-9', activity: 'Explore Tranquility Base and Collect Lunar Samples' },
+            { day: 'Day 10-11', activity: 'Visit Lunar Rovers and Instruments' },
+            { day: 'Day 12-13', activity: 'Explore Tycho Crater and Copernicus Crater' },
+            { day: 'Day 14', activity: 'Reflect and Depart for Earth' },
+        ],
+        image: "/img/Moon.jpg",
+
+        info: [
+            { rotation: '27.3 Days' },
+            { revolution: '27.3 Days' },
+            { radius: '1,737.1 KM' },
+            { temperature: '-173°C to 127°C' },
         ],
 
-        image: "/img/FullMoon.jpg",
-        info: [
-            { rotation: '0.99 Days' },
-            { revolution: '687 Days' },
-            { radius: '3,389.5 KM' },
-            { temperature: '-80°C to 20°C' },
-        ]
 
     }
 
