@@ -1,5 +1,5 @@
-import MobileNavbar from '@/components/MobileNavbar';
-import Navbar from '@/components/Navbar';
+import MobileNavbar from '@/components/Header/MobileNavbar';
+import Navbar from '@/components/Header/Navbar';
 import '@/styles/globals.css'
 
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
 
 
   return (
-    <div className={"relative items-center justify-center bg-gradient-to-r from-blue-800 to-blue-900 "}>
+    <div className={"relative items-center justify-center bg-gradient-to-r from-slate-500  to-black   bg-[url('/img/space-1.jpg')]"}>
 
       {/* <video
         autoPlay
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         <source src="/source/solar_system_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video> */}
-     
+
 
       <Component {...pageProps} />
 

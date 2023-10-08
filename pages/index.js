@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Header/Navbar'
 import Link from 'next/link'
-import Featured from '@/components/Featured'
-import About from '@/components/About'
-import DestinationList from '@/components/DestinationList'
-import EducationalContent from '@/components/EducationalContent'
+import Featured from '@/components/Home/Featured'
+import About from '@/components/Home/About'
+import DestinationList from '@/components/Home/DestinationList'
+import EducationalContent from '@/components/Home/EducationalContent'
+import Footer from '@/components/Home/Footer'
+import { Image3d } from '@/components/destinations/3d'
+import { Canvas } from '@react-three/fiber'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +25,7 @@ export default function Home() {
       {/* <About /> */}
       <DestinationList />
       <EducationalContent />
+      <Footer />
 
     </div>
   )
