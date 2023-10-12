@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> This project was created for **NASA Space Apps 2023 Hackathon** by team **Dyson Sphere**.
+
+Team members:
+1. Suryaprakash Pandey (Lead)
+2. Dinesh Rathod
+3. Tejas Parchure
+4. Jineet Vaishnav
+5. Soham Mirikar
+6. Ishan Raskar
+
+Hackathon Topic : *Planetary Space Tourism*
+
+
+> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
